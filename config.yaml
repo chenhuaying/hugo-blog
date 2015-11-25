@@ -1,0 +1,32 @@
+title: "ChenHuaying's Blog"
+languageCode: "zh-CN"
+disqusShortname: "chenhuaying_disqus"
+copyright: "Copyright (c) 2015, chenhuaying; all rights reserved."
+theme: "introj"
+MetaDataFormat: "yaml"
+canonifyurls: true
+builddrafts: false
+Paginate: 7
+PaginatePath: paginator
+permalinks:
+  posts: /:year/:month/:day/:title/
+Taxonomies:
+  tag: "tags"
+  category: "categories"
+params:
+  CopyrightHTML: "Copyright &#xA9; 2015 Chenhuaying. All Rights Reserved."
+  GitHubUser: "chenhuaying"
+  HeaderLine: "程序员一枚 | Linux Go C/C++ Python | Server"
+  SidebarRecentLimit: 5
+  Categories:
+    - "感想随笔"
+    - "技术文章"
+    - "读书笔记"
+images:
+  - 480x
+  - 768x
+  - 960x
+  - 1024x
+  - 1920x
+  - 720x340
+  - 520x245
