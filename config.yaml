@@ -1,11 +1,12 @@
 title: "ChenHuaying's Blog"
 languageCode: "zh-CN"
+baseurl: "http://chenhuaying.github.io"
 disqusShortname: "chenhuaying_disqus"
 copyright: "Copyright (c) 2015, chenhuaying; all rights reserved."
 theme: "introj"
 MetaDataFormat: "yaml"
 canonifyurls: true
-builddrafts: false
+builddrafts: true
 Paginate: 7
 PaginatePath: paginator
 permalinks:
