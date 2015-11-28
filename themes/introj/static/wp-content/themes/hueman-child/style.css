@@ -12,7 +12,7 @@
 -------------------------------------------------------------- */
 /* FiraSans from: git clone https://github.com/mozilla/Fira.git */
 body, input, textarea, button, select, label {
-    font-family: "Fira Sans", Arial, sans-serif;
+    font-family: "Microsoft YaHei","\9ED1\4F53", Arial, sans-serif;
 }
 
 body {
