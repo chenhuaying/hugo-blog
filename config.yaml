@@ -6,9 +6,11 @@ copyright: "Copyright (c) 2015, chenhuaying; all rights reserved."
 theme: "introj"
 MetaDataFormat: "yaml"
 canonifyurls: true
-builddrafts: true
+builddrafts: false
 Paginate: 7
 PaginatePath: paginator
+disablePathToLower: true
+hasCJKLanguage: true
 permalinks:
   posts: /:year/:month/:day/:title/
 Taxonomies:
@@ -17,12 +19,14 @@ Taxonomies:
 params:
   CopyrightHTML: "Copyright &#xA9; 2015 Chenhuaying. All Rights Reserved."
   GitHubUser: "chenhuaying"
+  DateForm : "2006年01月02日"
   HeaderLine: "程序员一枚 | Linux Go C/C++ Python | Server"
   SidebarRecentLimit: 5
   Categories:
     - "感想随笔"
     - "技术文章"
     - "读书笔记"
+    - "随时记录"
 images:
   - 480x
   - 768x
