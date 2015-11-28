@@ -12,7 +12,7 @@
     <div class="widget widget_recent_entries sidebarLeftCategories"><h3>Last posts</h3>
       <ul>
         {{range first .Site.Params.SidebarRecentLimit .Site.Pages}}
-        <li><a href="{{ lower .Permalink}}">{{.Title}}</a></li>
+        <li><a href="{{ .Permalink}}">{{.Title}}</a></li>
         {{end}}
       </ul>
     </div>

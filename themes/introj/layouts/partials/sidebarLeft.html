@@ -12,7 +12,7 @@
     <ul class="post-nav group">
       <li class="next">
         {{if .Next}}
-        <a href="{{ lower .Next.Permalink}}" rel="next">
+        <a href="{{ .Next.Permalink}}" rel="next">
           <i class="fa fa-chevron-right"></i>
           <strong>Next post</strong>
           <span>{{.Next.Title}}</span>
@@ -21,7 +21,7 @@
       </li>
       <li class="previous">
         {{if .Prev}}
-        <a href="{{ lower .Prev.Permalink}}" rel="prev">
+        <a href="{{ .Prev.Permalink}}" rel="prev">
           <i class="fa fa-chevron-left"></i>
           <strong>Previous Post</strong>
           <span>{{.Prev.Title}}</span>
@@ -33,7 +33,7 @@
     <div class="widget widget_recent_entries sidebarLeft"><h3>Last Posts</h3>
       <ul>
         {{range first .Site.Params.SidebarRecentLimit .Site.Pages}}
-        <li><a href="{{ lower .Permalink}}">{{.Title}}</a></li>
+        <li><a href="{{ .Permalink}}">{{.Title}}</a></li>
         {{end}}
       </ul>
     </div>
