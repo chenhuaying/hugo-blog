@@ -1,10 +1,9 @@
 +++
 date = "2015-11-25T13:35:17+08:00"
-draft = true
 title = "about"
 
 +++
 
 ## About Me
 
-Hello world
+一个不喜欢写博客的人，开始学习总结并整理成文。
