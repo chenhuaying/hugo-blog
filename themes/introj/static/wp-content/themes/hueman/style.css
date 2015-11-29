@@ -170,7 +170,7 @@ input, textarea, button, select, label { font-family: inherit; }
 
 /*  base : entry
 /* ------------------------------------ */
-.entry { font-size: 18px; line-height: 1.6em; }
+.entry { font-size: 16px; line-height: 1.8em; }
 .entry p,
 .entry dd { margin-bottom: 1em; }
 .entry dt { color: #444; }
@@ -246,7 +246,7 @@ transition: all .2s ease;
 /* ------------------------------------ */
 h1, h2, h3, h4, h5, h6 { color: #444; font-weight: 600; -ms-word-wrap: break-word; word-wrap: break-word; }
 .entry h1 span, .entry h2 span, .entry h3 span, .entry h4 span, .entry h5 span, .entry h6 span { color: #bbb; }
-.entry h1,.entry h2,.entry h3,.entry h4,.entry h5,.entry h6  { margin-bottom: 14px; font-weight: 400; line-height: 1.3em; }
+.entry h1,.entry h2,.entry h3,.entry h4,.entry h5,.entry h6  { margin-bottom: 14px; font-weight: 400; line-height: 1.8em; }
 .entry h1 { font-size: 38px; letter-spacing: -1px; }
 .entry h2 { font-size: 34px; letter-spacing: -0.7px; }
 .entry h3 { font-size: 28px; letter-spacing: -0.5px; }
