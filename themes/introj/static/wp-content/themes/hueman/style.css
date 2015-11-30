@@ -1404,8 +1404,8 @@ box-shadow: 0 1px 0 rgba(0,0,0,0.04); }
 /* ------------------------------------ */
 .wp-pagenavi { text-align: right; font-weight: 600; line-height: 20px; float: none; margin-right: -2px; text-align: center; }
 .wp-pagenavi a,
-.wp-pagenavi span { color: #aaa; font-size: 16px; padding: 7px 8px; display: inline; margin: 0 2px; }
-.wp-pagenavi span.pages { font-size: 17px; font-weight: 300; display: block; margin-bottom: 1em!important; border: none!important; }
+.wp-pagenavi span { color: #aaa; font-size: 13px; padding: 7px 8px; display: inline; margin: 0 2px; }
+.wp-pagenavi span.pages { font-size: 14px; font-weight: 300; display: block; margin-bottom: 1em!important; border: none!important; }
 .wp-pagenavi span.pages:before { content: "\f15c"; font-family: FontAwesome; margin-right: 6px; }
 .wp-pagenavi span.extend { border: none!important; border-bottom: 3px solid transparent; border-top: 1px solid transparent; }
 .wp-pagenavi a:hover,
