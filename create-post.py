@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-# coding:utf-8
+# -*- coding:utf-8 -*-
 
-__author__ = 'coderzh'
+__author__ = 'chenhuaying'
 
 import os
 import re
