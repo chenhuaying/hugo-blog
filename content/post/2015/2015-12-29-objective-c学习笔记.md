@@ -48,15 +48,15 @@ tags: [objective-c]
 ```
    @interface NewClass : fatherClass
    {
-       memberDeclarations;
+       memberDeclarations;  // 成员变量声明
    }
-   methodDeclarations;
+   methodDeclarations;      // 成员函数声明
    @end
 ```
 
    5. 属性
    @property
-   自动生成setter/getter的声明，定义的需要在定义部分使用@synthesize
+   自动生成setter/getter的声明，定义的需要在定义部分使用@synthesize    
    `@property int x` 自动生成
    ```
    -(void) setX: (int) a;
@@ -65,14 +65,16 @@ tags: [objective-c]
 
    6. 多参数方法
       * 冒号(**:**)连接参数
-      * 冒号连接的参数名，是函数签名的一部分，如下面的**over**
-        `-(void) setTo: (int) n over: (int) d`
-        调用时采用如下形式: `[instance setTo: 1 over: 3]`
-   7. 不带参数名的方法
-      `-(void) set: (int) n : (int) d`
-      调用形式: `[instance set: 1 : 3]`
-   8. @class声明一个类型，在接下来的作用域中就可以直接使用@class声明过的类
-      `@class ClassName`
+      * 冒号连接的参数名，是函数签名的一部分，如下面的**over**    
+        `-(void) setTo: (int) n over: (int) d`    
+        调用时采用如下形式:     
+				`[instance setTo: 1 over: 3]`
+   7. 不带参数名的方法    
+      `-(void) set: (int) n : (int) d`    
+      调用形式:     
+			`[instance set: 1 : 3]`
+   8. @class声明一个类型，在接下来的作用域中就可以直接使用@class声明过的类:
+      `@class ClassName`    
       可以用`#import <class-interface.h>`来代替，但用@class效率更高
       * 要使用class中的方法，还是得用**import**方式
 
@@ -80,13 +82,12 @@ tags: [objective-c]
 1. 定义格式:
    ```
    @implementation NewClass
-       methodDefinitions;
+       methodDefinitions;  // 成员函数定义
    @end
    ```
    @implementation NewClass: NSObject实现的父类是可选的，通常不用显示的写出，声明必须要有
 
-2. 属性
-   @synthesize
+2. 属性@synthesize    
    `@synthesize x`自动生成
 ```
     -(void) setX: (int) a
@@ -194,22 +195,25 @@ f = c
 这个地方有动态语言的特点，不同于C++
 
 ### 类对象class-object
-类对象通常是由class方法产生的对象，如：`[ClassName/(an instance of ClassName) class]`，都将得到一个ClassName类对象
-有如下操作
+类对象通常是由class方法产生的对象，如：    
+`[ClassName/(an instance of ClassName) class]`     
+都将得到一个ClassName类对象
 
-1. 判断两个对象是否是相同的类
+有如下操作:
+
+1. 判断两个对象是否是相同的类    
    `if ([obj class] == [obj2 class])`
-2. 某个变量是否是是否是属于一个类，即是否是这个类的成员
+2. 某个变量是否是是否是属于一个类，即是否是这个类的成员    
    `[aValue isMemberof: [ClassName class]]`
-3. 一个变量是否是一个类的实例
+3. 一个变量是否是一个类的实例    
    `[aInstance isKindOf: [ClassName class]]`
-4. 一个类是否是另一个类的子类
+4. 一个类是否是另一个类的子类    
    `[ClassName isSubclassOfClass: [BassClassName class]]`
 
 ### SEL对象
 通常由@selector指令产生，如：`@selector methodName`，将得到一个SEL对象
 
-1. 一个类是否有某一个操作
+1. 一个类是否有某一个操作    
    `anObject respondsToSelector: @selector methodName `
 
 ## 异常处理
