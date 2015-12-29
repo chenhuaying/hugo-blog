@@ -4,9 +4,10 @@ title: "Something With Golang"
 date: 2015-10-21T17:11:27+08:00
 categories:
 - 技术文章
-tags: [Go]
+tags: [go]
 ---
 ### glog
+修改过的[glog](http://github.com/chenhuaying/glog)
 
 #### vmodule 选项
 

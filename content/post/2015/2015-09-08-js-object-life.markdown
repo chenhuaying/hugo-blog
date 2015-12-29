@@ -4,7 +4,7 @@ title: "JS Object Life"
 date: 2015-09-08T18:30:12+08:00
 categories:
 - 技术文章
-tags: [Javascript]
+tags: [javascript]
 
 ---
 ### Prototype

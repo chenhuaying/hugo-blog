@@ -4,7 +4,7 @@ title: "Simple WebRTC"
 date: 2015-09-09T17:10:18+08:00
 categories:
 - 技术文章
-tags: [Javascript, WebRTC]
+tags: [javascript, webrtc]
 ---
 
 ### Step1

@@ -4,7 +4,7 @@ title: "Golang Struct Reset"
 date: 2015-09-24T12:20:03+08:00
 categories:
 - 技术文章
-tags: [Go]
+tags: [go]
 ---
 直接零赋值
 ```
